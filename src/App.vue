@@ -7,7 +7,9 @@
       <label for="choice_b">radio</label>
       <input v-model="typeState" type="radio" id="choice_c" name="input-select" value="select">
       <label for="choice_c">select</label>
-      <p>input type : {{ typeState }}</p>  
+      <div v-if="typeState">
+        <span>input type : {{ typeState }}</span>  
+      </div>
     </div>
   <HelloWorld :typeState="typeState"/>
 </template>

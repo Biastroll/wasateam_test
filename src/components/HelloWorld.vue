@@ -13,9 +13,12 @@
 </template>
 
 <script>
-import InputByText from './InputByText.vue'
-import InputByRadio from './InputByRadio.vue'
-import InputBySelect from './InputBySelect.vue'
+import InputByText from './InputByText'
+import InputByRadio from './InputByRadio'
+import InputBySelect from './InputBySelect'
+// import InputByText from './InputByText.vue'
+// import InputByRadio from './InputByRadio.vue'
+// import InputBySelect from './InputBySelect.vue'
 
 export default {
   name: 'HelloWorld',
