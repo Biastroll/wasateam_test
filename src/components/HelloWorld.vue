@@ -1,15 +1,5 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <div>
-      <input v-model="typeState" type="radio" id="choice_a" name="input-select" value="text">
-      <label for="choice_a">text</label>
-      <input v-model="typeState" type="radio" id="choice_b" name="input-select" value="radio">
-      <label for="choice_b">radio</label>
-      <input v-model="typeState" type="radio" id="choice_c" name="input-select" value="select">
-      <label for="choice_c">select</label>
-      <p>input type : {{ typeState }}</p>  
-    </div>
     <div v-if="typeState=='text'">
       <input-by-text typeState />
     </div>
@@ -31,7 +21,6 @@ export default {
   name: 'HelloWorld',
   data() {
     return {
-      typeState: '',
       }
   },
   components: {
@@ -40,7 +29,7 @@ export default {
     InputBySelect,
   },
   props: {
-    msg: String,
+    typeState: String
   },
   methods: {
   }

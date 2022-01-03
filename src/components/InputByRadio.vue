@@ -17,12 +17,8 @@ export default {
       }
   },
   props: {
-    inputType: String
   },
   methods: {
-    // changeType(){
-    //   console.log(this.props)
-    // }
   }
 }
 </script>
