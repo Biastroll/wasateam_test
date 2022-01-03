@@ -1,15 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld msg="Choose the type of input."/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 
+
 export default {
   name: 'App',
+  // data() {
+  //   return {
+  //     inputTypeA: 'text',
+  //     inputTypeB: 'radio',
+  //     inputTypeC: 'select',
+  //     }
+  // },
   components: {
-    HelloWorld
+    HelloWorld,
   }
 }
 </script>
