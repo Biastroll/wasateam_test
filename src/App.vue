@@ -12,11 +12,12 @@
       </div>
     </div>
   <HelloWorld :typeState="typeState"/>
+  <div>API<Api /></div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
+import Api from './components/Api.vue'
 
 export default {
   name: 'App',
@@ -27,6 +28,7 @@ export default {
   },
   components: {
     HelloWorld,
+    Api
   }
 }
 </script>

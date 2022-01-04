@@ -35,6 +35,8 @@ export default {
     typeState: String
   },
   methods: {
+  },
+  computed: {
   }
 }
 </script>
