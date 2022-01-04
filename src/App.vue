@@ -11,6 +11,7 @@
         <span>input type : {{ typeState }}</span>  
       </div>
     </div>
+
   <HelloWorld :typeState="typeState"/>
   <div>API<Api /></div>
 </template>
@@ -18,6 +19,7 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import Api from './components/Api.vue'
+
 
 export default {
   name: 'App',

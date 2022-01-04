@@ -8,8 +8,6 @@
 </template>
 
 <script>
-// import axios from 'axios'
-// import Loader from  'json-loader'
 import jsonApi from "../assets/fake data.json";
 
 
@@ -21,7 +19,6 @@ export default {
       }
   },
   props: {
-    // jsonApi: Array
   },
   mounted(){
   },
